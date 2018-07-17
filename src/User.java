@@ -10,6 +10,7 @@ public class User {
     private String name;
     private String id;
     private Set<Project> projectsJoined;
+    private Set<JoinRequest> requestsPending;
 
     public User(String name, String id) {
         this.name = name;
