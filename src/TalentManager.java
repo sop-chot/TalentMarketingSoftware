@@ -12,7 +12,6 @@ public class TalentManager {
     public TalentManager() {
         users = new HashSet<>();
         projects = new HashSet<>();
-        skillSet = null;
     }
 
     public void addUser(User user) {}
